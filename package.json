@@ -1,0 +1,28 @@
+{
+  "name": "x3test",
+  "version": "1.0.0",
+  "description": "Automated performance benchmarking framework for X3D/X3DOM web scenes using Puppeteer",
+  "main": "src/runX3Test.js",
+  "bin": {
+    "x3test": "./bin/x3test.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/x3test.js",
+    "test": "node test/test.js"
+  },
+  "author": "Nikhil Narra",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niknarra/X3Test"
+  },
+  "keywords": ["x3d", "x3dom", "performance", "benchmarking", "puppeteer"],
+  "dependencies": {
+    "puppeteer": "^24.6.1",
+    "commander": "^11.0.0"
+  },
+  "exports": {
+  ".": "./src/runX3Test.js"
+}
+}
